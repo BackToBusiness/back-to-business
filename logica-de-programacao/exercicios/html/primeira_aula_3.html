@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Livraria da Dona Maria</h1>
+    <h3>Preços dos Livros</h3>
+
+    <script>
+        var a_meta = 199
+        var scrum = 59.99
+        var tempo = 9.90
+
+        document.write("O livro A Meta custa: " + a_meta + " reais");
+        document.write("<br>");
+        document.write("O livro Scrum a Arte de Fazer o dobro pela metade do tempo custa: " + scrum + " reais");
+        document.write("<br>");
+        document.write("O livro O Tempo custa: " + tempo + " reais");
+        document.write("<br>");
+
+        var valorTotal = a_meta + scrum + tempo
+
+        //Arrendondamento de valor - Desafio
+        document.write("O valor da compra é: " + parseFloat(valorTotal.toFixed(1)));
+
+    </script>
+</body>
+
+</html>
