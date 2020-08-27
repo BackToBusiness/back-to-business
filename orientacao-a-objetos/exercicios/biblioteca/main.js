@@ -25,6 +25,7 @@ class Main {
 }
 
 let buscaLivroPeloTitulo = (titulo) => {
+    
     try {
         let livro = new Main("L")
         livro.MainInterface(titulo)
