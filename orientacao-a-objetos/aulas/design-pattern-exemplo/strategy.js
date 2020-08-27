@@ -1,5 +1,5 @@
 'use strict';
-
+//https://loredanacirstea.github.io/es6-design-patterns/#strategy
 class Contexttt {
     constructor(type) {
         switch (type) {
