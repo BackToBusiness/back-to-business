@@ -27,7 +27,7 @@ export const bancoDeDados = {
     artigos: [{
         titulo: "Como Monitorar sua Infra na Cloud usando o New Relic",
         autores: [{
-            nome: "Marks Vanderberg"
+            nome: "Mark Vanderberg"
         }],
         publicador: "IEEE",
     }, {
