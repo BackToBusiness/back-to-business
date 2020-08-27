@@ -1,0 +1,56 @@
+### Acervo
+
+- Livros
+    - Nome
+    - Editora
+    - ISBN
+    - Autores
+- Revistas
+    - Nome
+    - Editora
+- Artigos
+    - Titulo
+    - Publicador
+    - Autores
+
+### Clientes
+
+- Nome
+- Endereço
+- Telefone/WhatsApp
+- RG
+
+### Unidade
+
+- Local
+- Endereço
+- CEP
+
+### Funcionários
+
+- Nome
+- Endereço
+- Cargo
+- Salário
+- Telefone/WhatsApp
+
+### Empréstimo
+
+- Cliente
+- Acervo
+- Data do Empréstimo
+- Data da Devolução
+
+### Financeiro
+
+- Contas a Pagar
+    - Salário
+    - IPTU
+    - Alguel
+    - Conta de Luz
+    - Conta de Telefone
+- Contas a Receber
+    - Multas
+
+
+CRUD - Create, Read, Update, Delete

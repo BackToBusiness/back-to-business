@@ -1,0 +1,16 @@
+### Associação & Herança →
+
+Exemplo: Transaportadora
+
+- Empresa
+- Funcionario
+    - Caminhoneiro
+    - RH
+    - Administrativo
+    - Vendas
+    - Contabilidade
+- Clientes
+    - PF
+    - PJ
+- Produtos
+    - ProdutoItem
