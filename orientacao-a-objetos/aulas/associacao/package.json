@@ -1,0 +1,14 @@
+{
+  "name": "backtobusiness-assoc-agreg-comp",
+  "version": "1.0.0",
+  "main": "usuario.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "btb",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

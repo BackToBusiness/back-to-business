@@ -1,0 +1,12 @@
+{
+  "name": "backtobusiness-assoc-agreg-comp",
+  "version": "1.0.0",
+  "main": "cliente.js",
+  "scripts": {
+    "start": "node cliente.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "btb",
+  "license": "ISC",
+  "type": "module"
+}

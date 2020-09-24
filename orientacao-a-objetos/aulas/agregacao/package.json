@@ -1,0 +1,11 @@
+{
+    "name": "backtobusiness-assoc-agreg-comp",
+    "version": "1.0.0",
+    "main": "carrinho.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "btb",
+    "license": "ISC",
+    "type": "module"
+  }

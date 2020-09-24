@@ -49,7 +49,7 @@ class Pet {
         return this._nome;
     }
     set nome(nome) {
-        return this._nome;
+        return this._nome = nome;
     }
 
     get raca() {
@@ -60,7 +60,7 @@ class Pet {
         return this._idade;
     }
     set idade(idade) {
-        return this._idade;
+        return this._idade = idade;
     }
 
     latindo() {
