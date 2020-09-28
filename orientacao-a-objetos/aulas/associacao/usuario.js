@@ -5,7 +5,6 @@ import {
 class Usuario {
     constructor(nome) {
         this._nome = nome
-        this._email = new Email()
     }
 
     get email() {
@@ -13,7 +12,7 @@ class Usuario {
     }
 
     confirmarInscricao() {
-        this.email.enviarEmail();
+        new Email().enviarEmail();
     }
 }
 /**Exemplo de encapsulamento 
