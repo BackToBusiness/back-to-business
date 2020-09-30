@@ -1,0 +1,47 @@
+**Por que e como usar →** [https://www.typescriptlang.org/](https://www.typescriptlang.org/) No playground mostrar um exemplo de recurso disponível no TS que não está no JS
+
+```jsx
+//function teste(msg){
+function teste(msg: string){
+    console.log(msg)
+}
+
+//teste({msg:"olá galera"})
+teste("olá galera")
+```
+
+**Instalando o Typescript →**
+
+1. Instalar o Node
+2. `npm i -g typescript` (-g = instalar de forma global. Para usuários MAC e Linux colocar o `sudo`na frente do comando)
+3. Rodar o comando `tsc -v` Verifica a versão do TS
+4. `tsc --init` → Cria o arquivo `tsconfig.json` responsável por configurar o compilador Javascript
+
+**Executando o Typescript manualmente →** 
+
+- Compilar o arquivo ts → `tsc arquivo.ts`
+
+```jsx
+const hello: string = "Hello Guys!!!"
+console.log(hello)
+```
+
+- node `hello.js`
+
+Usando o plugin `Code Runner`
+
+Criando o `package.json`
+
+- dentro da pasta do projeto, crie digitando `npm init -y`
+
+Usando o Live Server → `npm i -s live-server`
+
+- Alterar o `package.json`
+
+    ```jsx
+    "scripts": {
+        "start": "live-server"
+    }
+    ```
+
+Deixando o processo do TS automatizado → `tsc -w` Fica monitorando as mudanças no arquivo javascript
