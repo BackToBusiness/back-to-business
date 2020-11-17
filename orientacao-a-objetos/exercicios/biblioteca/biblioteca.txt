@@ -5,13 +5,21 @@
     - Editora
     - ISBN
     - Autores
+
 - Revistas
     - Nome
     - Editora
+
 - Artigos
+
     - Titulo
     - Publicador
     - Autores
+
+Métodos (Livro, Revista, Artigo)
+   * CRUD
+   * Buscar por Título
+   * Verificar a disponibilidade do Livro
 
 ### Clientes
 
@@ -19,12 +27,17 @@
 - Endereço
 - Telefone/WhatsApp
 - RG
+    * CRUD
+    * Verificar os empréstimos do Cliente
+    * Calcular multa do Cliente
 
 ### Unidade
 
 - Local
 - Endereço
 - CEP
+
+    * CRUD
 
 ### Funcionários
 
@@ -34,6 +47,9 @@
 - Salário
 - Telefone/WhatsApp
 
+* CRUD
+* Listar Funcionários que estão com as férias vencidas
+
 ### Empréstimo
 
 - Cliente
@@ -41,16 +57,27 @@
 - Data do Empréstimo
 - Data da Devolução
 
+    * Emprestar Acervo
+
 ### Financeiro
 
 - Contas a Pagar
     - Salário
     - IPTU
-    - Alguel
+    - Aluguel
     - Conta de Luz
     - Conta de Telefone
+
+    * Montante de contas a pagar por período
+
 - Contas a Receber
     - Multas
 
+    * Montante de multas por período
 
-CRUD - Create, Read, Update, Delete
+CRUD - Create, Read, Update, Delete para todas as Entidades
+Create - Vai adicionar na lista
+Read - Vai Ler a lista
+Update - Vai atualizar a lista
+Delete - Vai apagar da lista
+
