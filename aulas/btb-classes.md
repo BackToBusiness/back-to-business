@@ -4,6 +4,7 @@
 
 <ol>
     <li><a href="logica-de-programacao.md">Lógica de Programação - Primeiros passos com HTML e Javascript</a></li>
+    <li><a href="extensao-boaspraticas-dos-arquivos.md">Extensão e Boas Práticas dos Arquivos</a></li>
     <li>Valores, Tipos, Operadores e Funções</li> 
     <li>Trabalhando com Condicionais - Fluxo de Controle</li> 
     <li>Estruturas de Repetição - Do While, For & Switch</li> 
